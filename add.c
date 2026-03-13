@@ -1,6 +1,10 @@
 #include<stdio.h>
 
+int add(int a,int b){
+	return (a+b);
+}
+
 int main(){
-	printf("%d",5+10);
+	printf("%d",add(5,10);
 	return 0
 }
